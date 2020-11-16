@@ -12,7 +12,7 @@
   box-shadow: 5px 10px 10px -5px rgb(191, 183, 158);
   transition: box-shadow .5s ease-in;
   display: grid;
-  grid-template-rows: 35px 200px 30px;
+  grid-template-rows: 35px 225px 30px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "hd hd"

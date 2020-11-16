@@ -1,14 +1,19 @@
 @import "./nav.css";
 @import "./cards.css";
+@import "./footer.css";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300&display=swap');
 
 :root {
   --font-lato: 'Lato', sans-serif;
 }
 
-html {
-  margin: 0 .1em;
+body {
   background-color: whitesmoke;
+  margin: 0em;
+}
+
+header, main {
+  margin: .75em;
 }
 
 .page-title {
@@ -17,8 +22,6 @@ html {
   letter-spacing: -0.06em;
   font-family: var(--font-lato);
 }
-
-footer {}
 
 @media (min-width: 900px) {
 

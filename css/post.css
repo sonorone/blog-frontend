@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Xanh+Mono&display=swap');
+
+.content h2 {
+    font-family: 'Xanh Mono', monospace;
+    font-style: italic;
+}
+
+.content p {
+    font-family: var(--font-lato);
+    line-height: 1.4em;
+    font-size: larger;
+}
+
+.post-details {
+    font-family: var(--font-lato);
+}
+
+.card-main h5 {
+    font-family: var(--font-lato);
+    color: gray;
+}
